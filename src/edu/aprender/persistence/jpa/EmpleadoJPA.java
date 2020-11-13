@@ -16,7 +16,7 @@ public class EmpleadoJPA {
 
 	public void setup() {
 		// Referenciamos a nuestra unidad de persistencia para gestionar nuestras entidades
-		emf = Persistence.createEntityManagerFactory("Aplicacion_07_Mapping_con_JPA_Tablas_R");
+		emf = Persistence.createEntityManagerFactory("Aplicacion_JPA_03");
 		// Creamos instancia del EntityManager
 		em = emf.createEntityManager();
 	}
